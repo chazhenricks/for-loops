@@ -58,9 +58,25 @@ for (var k=0; k < presidents.length; k++){
 	console.log("President #" + (k+1) + " was " + presidents[k]);
 }
 
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
 
 
 
+for (var key in antSpecies){
+	console.log(key);
+}
 
 
 
